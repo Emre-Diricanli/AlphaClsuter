@@ -1,0 +1,23 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Network:
+    - Nginx Reverse Proxy:
+        href: http://192.168.86.204:81/
+        description: Nginx Reverse Proxy Server
+    - Traefik Proxy:
+        href: http://192.168.86.221:8080/
+        description: Traefik Proxy Server
+    - Pi-Hole DNS:
+        href: http://192.168.86.203/admin
+        description: Pi-Hole DNS Server
+- Control:
+    - My Second Service:
+        href: http://localhost/
+        description: Homepage is the best
+
+- Development:
+    - My Third Service:
+        href: http://localhost/
+        description: Homepage is 😎

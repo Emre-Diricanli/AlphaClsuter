@@ -1,0 +1,14 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: AlphaCluster
+
+layout:
+  Network:
+    style: row
+    columns: 5 
+
+providers:
+  openweathermap: 90e4542e2dc272694c033697c4068dd1
+  weatherapi: weatherapiapikey
