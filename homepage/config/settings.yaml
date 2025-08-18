@@ -3,12 +3,28 @@
 # https://gethomepage.dev/configs/settings/
 
 title: AlphaCluster
+# headerStyle: boxed
 
 layout:
   Network:
     style: row
-    columns: 5 
+    columns: 4
+  Automation:
+    style: row
+    columns: 4
+  Monitoring:
+    style: row
+    columns: 4
+  Development:
+    style: row
+    columns: 4
+
+background:
+  image: /images/dark-fabric.jpg
+  blur: xl
+  brightness: 90
+  opacity: 60
 
 providers:
-  openweathermap: 90e4542e2dc272694c033697c4068dd1
-  weatherapi: weatherapiapikey
+  # openweathermap: 90e4542e2dc272694c033697c4068dd1
+  # weatherapi: weatherapiapikey

@@ -3,10 +3,16 @@
 # https://gethomepage.dev/configs/info-widgets/
 
 - resources:
-    cpu: true
-    memory: true
-    disk: /
+      cpu: true
+      memory: true
+      disk: /
 
 - search:
-    provider: google
-    target: _blank
+      provider: google
+      target: _blank
+
+- datetime:
+      text_size: xl
+      format:
+          timeStyle: short
+          hourCycle: h12

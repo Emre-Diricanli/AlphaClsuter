@@ -3,21 +3,45 @@
 # https://gethomepage.dev/configs/services/
 
 - Network:
-    - Nginx Reverse Proxy:
-        href: http://192.168.86.204:81/
-        description: Nginx Reverse Proxy Server
-    - Traefik Proxy:
-        href: http://192.168.86.221:8080/
-        description: Traefik Proxy Server
-    - Pi-Hole DNS:
-        href: http://192.168.86.203/admin
-        description: Pi-Hole DNS Server
-- Control:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
-
+      - Nginx Reverse Proxy:
+            href: https://npm.alpha-cluster.com/
+            description: Nginx Reverse Proxy
+            icon: si-nginxproxymanager
+      - Traefik Proxy:
+            href: https://traefik.alpha-cluster.com/
+            description: Traefik Proxy Server
+            icon: si-traefikproxy
+      - Pi-Hole DNS:
+            href: https://pihole.alpha-cluster.com
+            description: Pi-Hole DNS Server
+            icon: si-pihole
+      - Cloudflare:
+            href: https://dash.cloudflare.com/df3195215814cb9b3c4957113c2accce/home/domains
+            description: Cloudflare admin
+            icon: si-cloudflare
+- Automation:
+      - Ansible Semaphore:
+            href: https://ansible.alpha-cluster.com/
+            description: Ansible Semaphore
+            icon: si-ansible
+      - N8N:
+            href: http://192.168.86.211:5678/
+            description: Ansible Semaphore
+            icon: si-n8n
+- Monitoring:
+      - Prometheus:
+            href: https://prometheus.alpha-cluster.com/
+            description: Prometheus
+            icon: si-prometheus
+      - Grafana:
+            href: https://grafana.alpha-cluster.com/
+            description: Grafana
+            icon: si-grafana
+      - Uptime-Kuma:
+            href: https://uptime.alpha-cluster.com/
+            description: Uptime-Kuma
+            icon: si-uptimekuma
 - Development:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+      - My Third Service:
+            href: http://localhost/
+            description: Homepage is 😎
