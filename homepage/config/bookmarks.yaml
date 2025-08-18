@@ -1,18 +1,42 @@
 ---
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/bookmarks
+- Repositories:
+    - Homelab:
+        - icon: si-github
+          href: https://github.com/christianlempa/homelab
+    - Boilerplates:
+        - icon: si-github
+          href: https://github.com/christianlempa/boilerplates
+    - Cheat-Sheets:
+        - icon: si-github
+          href: https://github.com/christianlempa/cheat-sheets
+    - Scripts:
+        - icon: si-github
+          href: https://github.com/christianlempa/scripts
 
-- Developer:
-    - Github:
-        - abbr: GH
-          href: https://github.com/
+- Cloud Services:
+    - Sophos Cloud:
+        - icon: /icons/cld.png
+          href: https://cloud.sophos.com
+    - Cloudflare:
+        - icon: cloudflare.png
+          href: https://dash.cloudflare.com
+    - Teleport:
+        - icon: teleport.png
+          href: https://clcreative.teleport.sh
+    - Twingate:
+        - icon: twingate.png
+          href: https://diricanliemre.twingate.com
+    - Netbird:
+        - icon: https://netbird.io/_next/static/media/netbird-icon.00225e97.svg
+          href: https://app.netbird.io
 
-- Social:
-    - Reddit:
-        - abbr: RE
-          href: https://reddit.com/
-
-- Entertainment:
-    - YouTube:
-        - abbr: YT
-          href: https://youtube.com/
+- Cloud Platforms:
+    - Microsoft Azure:
+        - icon: azure.png
+          href: https://portal.azure.com
+    - Digital Ocean:
+        - icon: si-digitalocean-#0080FF
+          href: https://cloud.digitalocean.com
+    - CIVO:
+        - icon: si-civo-#239DFF
+          href: https://www.civo.com
